@@ -34,22 +34,22 @@ async def start(event):
     if not event.is_private:
         return await event.respond("ɪ ᴀᴍ ᴀʟɪᴠᴇ 🥺")
     await event.reply(
-        "━━━━━━━━━━━━━━━━━━━━━━━━\n\n✪ ɪ ᴀᴍ ᴀʟᴇxᴀ ᴛᴏ ᴍᴇɴᴛɪᴏɴ ᴀʟʟ ᴛʜᴇ ɢʀᴏᴜᴘ ᴍᴇᴍʙᴇʀs ɪɴ ᴛᴇʟᴇɢʀᴀᴍ\n✪ ᴛʜᴀɴᴋs ғᴏʀ ᴜsɪɴɢ ʀᴜɴ /help..\n\n┏━━━━━━━━━━━━━━━━━┓\n┣★ ᴏᴡɴᴇʀ    : [ᴀsᴀᴅ ᴀʟɪ](https://t.me/Dr_Asad_Ali)\n┣★ ᴜᴘᴅᴀᴛᴇs › : [ᴀʟᴇxᴀ ʜᴇʟᴘ](https://t.me/Alexa_BotUpdates)┓\n┣★ ʀᴇᴘᴏ › : [ᴀʟᴇxᴀ ʀᴇᴘᴏ](https://github.com/TheTeamAlexa/MentionBot)\n┗━━━━━━━━━━━━━━━━━┛\n\n💞 ɪғ ʏᴏᴜ ʜᴀᴠᴇ ᴀɴʏ ǫᴜᴇsᴛɪᴏɴs ᴛʜᴇɴ\nᴅᴍ ᴛᴏ ᴍʏ [ᴏᴡɴᴇʀ](https://t.me/Jankari_Ki_Duniya) ...\n\n━━━━━━━━━━━━━━━━━━━━━━━━",
+        "━━━━━━━━━━━━━━━━━━━━━━━━\n\n✪ ɪ ᴀᴍ 𝙻𝚞𝚌𝚔𝚢 ᴛᴏ ᴍᴇɴᴛɪᴏɴ ᴀʟʟ ᴛʜᴇ ɢʀᴏᴜᴘ ᴍᴇᴍʙᴇʀs ɪɴ ᴛᴇʟᴇɢʀᴀᴍ\n✪ ᴛʜᴀɴᴋs ғᴏʀ ᴜsɪɴɢ ʀᴜɴ /help..\n\n┏━━━━━━━━━━━━━━━━━┓\n┣★ ᴏᴡɴᴇʀ    : [GROUP](https://t.me/WorldFriends_143)\n┣★ ᴜᴘᴅᴀᴛᴇs › : [TG IPL](https://t.me/TG_IPL)┓\n┣★ ʀᴇᴘᴏ › : [DX LUCKY](https://github.com/ITS-LUCKY-BOY/MentionBot)\n┗━━━━━━━━━━━━━━━━━┛\n\n💞 ɪғ ʏᴏᴜ ʜᴀᴠᴇ ᴀɴʏ ǫᴜᴇsᴛɪᴏɴs ᴛʜᴇɴ\nᴅᴍ ᴛᴏ ᴍʏ [ᴏᴡɴᴇʀ](https://t.me/DX_LUCKY) ...\n\n━━━━━━━━━━━━━━━━━━━━━━━━",
         link_preview=False,
         buttons=(
             [
                 Button.url(
                     "☀︎︎️ ᴀᴅᴅ ᴍᴇ ᴛᴏ ʏᴏᴜʀ ɢʀᴏᴜᴘ ☀︎︎",
-                    "https://t.me/Alexa_MentionBot?startgroup=true",
+                    "https://t.me/MissQueenChaTBOT?startgroup=true",
                 ),
             ],
             [
-                Button.url("☀︎︎ ɢʀᴏᴜᴘ ☀︎︎︎", "https://t.me/Shayri_Music_Lovers"),
-                Button.url("☀︎︎ ᴄʜᴀɴɴᴇʟ ☀︎︎", "https://t.me/Alexa_BotUpdates"),
+                Button.url("☀︎︎ 🇬𝐑𝐎𝐔𝐏 ☀︎︎︎", "https://t.me/WorldFriends_143"),
+                Button.url("☀︎︎ 🇨𝐇𝐀𝐍𝐍𝐄𝐋 ☀︎︎", "https://t.me/DX_INFO"),
             ],
             [
-                Button.url("☀︎︎ ʙʀᴏ ☀︎︎️️", "https://t.me/Kattai_massom"),
-                Button.url("☀︎︎ ᴋɪɴɢ ☀︎︎︎", "https://t.me/Jankari_Ki_Duniya"),
+                Button.url("☀︎︎ 𝐒𝐇𝐀𝐘𝐑𝐈 ☀︎︎️️", "https://t.me/shayri_hit"),
+                Button.url("☀︎︎ 🇴𝐖𝐍𝐄𝐑 ☀︎︎︎", "https://t.me/DX_LUCKY"),
             ],
         ),
     )
@@ -66,8 +66,8 @@ async def help(event):
         link_preview=False,
         buttons=(
             [
-                Button.url("☀︎︎ ʜᴇᴀʀᴛ", "https://t.me/Give_Me_Heart"),
-                Button.url("ʏᴏᴜᴛᴜʙᴇ ☀︎︎", "https://www.youtube.com/c/JankariKiDuniya"),
+                Button.url("☀︎︎ 🇨𝐇𝐀𝐍𝐍𝐄𝐋 💓", "https://t.me/DX_INFO"),
+                Button.url("♥ 🇾𝐎𝐔🇹𝐔𝐁𝐄 ☀︎︎", "https://youtube.com/@HIPOGESTUDYHUB"),
             ]
         ),
     )
@@ -78,14 +78,14 @@ async def help(event):
     chat_id = event.chat_id
     if not event.is_private:
         return await event.respond("ᴅᴇᴀʀ sᴛᴀʀᴛ ᴍᴇ ɪɴ ᴘᴍ ᴛᴏ ᴜsᴇ ᴛʜɪs ᴄᴏᴍᴍᴀɴғ 🥺")
-    helptext = "✪ ᴏᴡɴᴇʀ ᴍᴇɴᴜ ᴏғ ᴀʟᴇxᴀ ᴍᴇɴᴛɪᴏɴ\n\n✪ ᴍʏ ᴏᴡɴᴇʀ ɪs [ᴀsᴀᴅ ᴀʟɪ](https://t.me/Dr_Asad_Ali)\n✪ ᴏғғɪᴄɪᴀʟ ᴍᴇᴍʙᴇʀ ᴏғ ʀᴏᴄᴋs\n✪ ʏᴏᴜᴛᴜʙᴇ [ᴄʜᴀɴɴᴇʟ](https://www.youtube.com/c/JankariKiDuniya)\n✪ ғᴜᴛᴜʀᴇ ᴀɴᴇsᴛʜᴇᴛɪᴄ."
+    helptext = "✪ ᴏᴡɴᴇʀ ᴍᴇɴᴜ ᴏғ ᴀʟᴇxᴀ ᴍᴇɴᴛɪᴏɴ\n\n✪ ᴍʏ ᴏᴡɴᴇʀ ɪs [💘 𝐎𝐖𝐍𝐄𝐑 💘](https://t.me/DX_LUCKY)\n✪ ᴏғғɪᴄɪᴀʟ ᴍᴇᴍʙᴇʀ ᴏғ ʀᴏᴄᴋs\n✪ ʏᴏᴜᴛᴜʙᴇ [ᴄʜᴀɴɴᴇʟ](https://youtube.com/@HIPOGESTUDYHUB)\n✪ ғᴜᴛᴜʀᴇ ᴀɴᴇsᴛʜᴇᴛɪᴄ."
     await event.reply(
         helptext,
         link_preview=False,
         buttons=(
             [
-                Button.url("☀︎︎ ʜᴇᴀʀᴛ", "https://t.me/Give_Me_Heart"),
-                Button.url("ʏᴏᴜᴛᴜʙᴇ ☀︎︎", "https://www.youtube.com/c/JankariKiDuniya"),
+                Button.url("☀︎︎ 𝗢𝘄𝗻𝗲𝗿 💗", "https://t.me/TG_IPL"),
+                Button.url("♥ 🇾𝐎𝐔🇹𝐔𝐁𝐄 ☀︎︎", "https://youtube.com/@HIPOGESTUDYHUB"),
             ]
         ),
     )
@@ -137,7 +137,7 @@ async def mentionall(event):
             break
         usrnum += 1
         usrtxt += f"[{usr.first_name}](tg://user?id={usr.id}) "
-        if usrnum == 5:
+        if usrnum == 1:
             if mode == "text_on_cmd":
                 txt = f"{usrtxt}\n\n{msg}"
                 await client.send_message(chat_id, txt)
@@ -197,7 +197,7 @@ async def _(event):
             break
         usrnum += 1
         usrtxt += f" \n [{x.first_name}](tg://user?id={x.id})"
-        if usrnum == 5:
+        if usrnum == 1:
             if mode == "text_on_cmd":
                 txt = f"{usrtxt}\n\n{msg}"
                 await client.send_message(chat_id, txt)
@@ -224,7 +224,7 @@ async def cancel_spam(event):
         return await event.respond("sᴛᴏᴘᴘᴇᴅ.")
 
 
-print(">> ASAD ALEXA WORKING <<")
+print(">> DX LUCKY WORKING <<")
 client.run_until_disconnected()
 
 
