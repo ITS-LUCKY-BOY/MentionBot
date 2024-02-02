@@ -28,13 +28,13 @@ client = TelegramClient("client", api_id, api_hash).start(bot_token=bot_token)
 spam_chats = []
 
 
-@client.on(events.NewMessage(pattern="^/start$"))
+@client.on(events.NewMessage(pattern="^/tagstart$"))
 async def start(event):
     chat_id = event.chat_id
     if not event.is_private:
         return await event.respond("ɪ ᴀᴍ ᴀʟɪᴠᴇ 🥺")
     await event.reply(
-        "━━━━━━━━━━━━━━━━━━━━━━━━\n\n✪ ɪ ᴀᴍ 𝙻𝚞𝚌𝚔𝚢 ᴛᴏ ᴍᴇɴᴛɪᴏɴ ᴀʟʟ ᴛʜᴇ ɢʀᴏᴜᴘ ᴍᴇᴍʙᴇʀs ɪɴ ᴛᴇʟᴇɢʀᴀᴍ\n✪ ᴛʜᴀɴᴋs ғᴏʀ ᴜsɪɴɢ ʀᴜɴ /help..\n\n┏━━━━━━━━━━━━━━━━━┓\n┣★  🇬𝐑𝐎𝐔𝐏   : [𝐁𝐀𝐒𝐓 𝐅𝐑𝐈𝐄𝐍𝐃](https://t.me/WorldFriends_143)\n┣★ ᴜᴘᴅᴀᴛᴇs › : [🇴𝐖𝐍𝐄𝐑](https://t.me/TG_IPL)\n┣★ 𝐘𝐨𝐮𝐓𝐮𝐛𝐞 › : [🇩𝐗 🇱𝐔𝐂𝐊𝐘](https://youtube.com/@HIPOGESTUDYHUB)\n┗━━━━━━━━━━━━━━━━━┛\n\n💞 ɪғ ʏᴏᴜ ʜᴀᴠᴇ ᴀɴʏ ǫᴜᴇsᴛɪᴏɴs ᴛʜᴇɴ\nᴅᴍ ᴛᴏ ᴍʏ [ᴏᴡɴᴇʀ](https://t.me/DX_LUCKY) ...\n\n━━━━━━━━━━━━━━━━━━━━━━━━",
+        "━━━━━━━━━━━━━━━━━━━━━━━━\n\n✪ ɪ ᴀᴍ 𝙻𝚞𝚌𝚔𝚢 ᴛᴏ ᴍᴇɴᴛɪᴏɴ ᴀʟʟ ᴛʜᴇ ɢʀᴏᴜᴘ ᴍᴇᴍʙᴇʀs ɪɴ ᴛᴇʟᴇɢʀᴀᴍ\n✪ ᴛʜᴀɴᴋs ғᴏʀ ᴜsɪɴɢ ʀᴜɴ /help..\n\n┏━━━━━━━━━━━━━━━━━┓\n┣★  💓𝐒𝐎𝐏𝐏𝐎𝐑𝐓 𝐆𝐑𝐎𝐔𝐏💓  : [💘𝐘𝐀𝐑𝐀𝐍𝐀 𝐓𝐆💘](https://t.me/WorldFriends_143)\n┣★ ᴜᴘᴅᴀᴛᴇs › : [💗🇴𝐖𝐍𝐄𝐑💗](https://t.me/DX_LUCKY)\n┣★ 𝐘𝐨𝐮𝐓𝐮𝐛𝐞 › : [🇩𝐗➳🇱𝐔𝐂𝐊𝐘](https://youtube.com/@HIPOGESTUDYHUB)\n┗━━━━━━━━━━━━━━━━━┛\n\n💞 ɪғ ʏᴏᴜ ʜᴀᴠᴇ ᴀɴʏ ǫᴜᴇsᴛɪᴏɴs ᴛʜᴇɴ\nᴅᴍ ᴛᴏ ᴍʏ [ᴏᴡɴᴇʀ](https://t.me/DX_LUCKY) ...\n\n━━━━━━━━━━━━━━━━━━━━━━━━",
         link_preview=False,
         buttons=(
             [
@@ -55,7 +55,7 @@ async def start(event):
     )
 
 
-@client.on(events.NewMessage(pattern="^/help$"))
+@client.on(events.NewMessage(pattern="^/taghelp$"))
 async def help(event):
     chat_id = event.chat_id
     if not event.is_private:
@@ -84,7 +84,7 @@ async def help(event):
         link_preview=False,
         buttons=(
             [
-                Button.url("☀︎︎ 𝗢𝘄𝗻𝗲𝗿 💗", "https://t.me/TG_IPL"),
+                Button.url("☀︎︎ 𝗢𝘄𝗻𝗲𝗿 💗", "https://t.me/DX_LUCKY"),
                 Button.url("♥ 🇾𝐎𝐔🇹𝐔𝐁𝐄 ☀︎︎", "https://youtube.com/@HIPOGESTUDYHUB"),
             ]
         ),
